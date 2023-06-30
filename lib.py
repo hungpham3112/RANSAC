@@ -1,6 +1,5 @@
 import numpy as np
 import cv2
-from sklearn.neighbors import BallTree
 from skimage.measure import ransac
 from skimage.transform import SimilarityTransform
 
