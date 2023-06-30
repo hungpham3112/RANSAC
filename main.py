@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 import numpy as np
-from .lib import sift_feature_detector, extract_descriptors, match_features, draw_matches, ransac_alignment
+from lib import sift_feature_detector, extract_descriptors, match_features, draw_matches, ransac_alignment
 
 def main():
     st.title("Panorama for two images")
